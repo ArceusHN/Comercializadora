@@ -14,7 +14,7 @@ import java.sql.Statement;
  * @author Administrator
  */
 public class Conexion {
-    String url = "jdbc:mysql://localhost:3306/comerciodb?zeroDateTimeBehavior=CONVERT_TO_NULL";
+    String url = "jdbc:mysql://localhost:3306/comerciodb?zeroDateTimeBehavior=convertToNull";
     String user = "root";
     String password ="";
     private Connection connect;
